@@ -5,8 +5,8 @@ import {
 const getPokemon = ((pokemon) => {
     return `<div class="card">
             <img class="card__image" src="${pokemon.sprite}">
-            <h1 class="card__heading"> ${pokemon.name}</h1>
-            <p class="card__content">${pokemon.name} (#${pokemon.id}) is a ${pokemon.types} ${pokemon.type}</p>
+            <h1 class="card-container card__heading"> ${pokemon.name}</h1>
+            <p class="card-container card__content card__text">${pokemon.name} (#${pokemon.id}) is a ${pokemon.types} type pokemon.</p>
             </div>`
 })
 
